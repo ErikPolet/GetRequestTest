@@ -1,5 +1,4 @@
 const xhr = new XMLHttpRequest();
-// xhr.open("GET", "http://46.44.182.25:65445/api/json/v2/history");
 xhr.open("GET", "https://jsonplaceholder.typicode.com/todos/");
 xhr.onreadystatechange = function() {
     if (this.readyState === 4 && this.status === 200) {
